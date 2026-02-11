@@ -159,4 +159,4 @@ If you need help with deployment or customization, feel free to reach out!
 
 ---
 
-Made with 💖 for Siya's precious moments
+Made with 💖 for Siya's precious moments.
