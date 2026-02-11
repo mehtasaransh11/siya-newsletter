@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siya's Milestone</title>
+    <link rel="stylesheet" href="milestone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="back-button">
+        <a href="archive.html" class="back-link">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M12 5L7 10L12 15" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Back to Archive
+        </a>
+    </div>
+
+    <div class="milestone-container">
+        <div class="floating-elements">
+            <div class="floating-star">⭐</div>
+            <div class="floating-heart">💕</div>
+            <div class="floating-star">✨</div>
+            <div class="floating-heart">🌸</div>
+        </div>
+
+        <header class="milestone-header">
+            <div class="milestone-icon" id="milestoneIcon">🗣️</div>
+            <h1 class="milestone-title" id="milestoneTitle">First Words</h1>
+            <div class="milestone-date" id="milestoneDate">A Precious Moment</div>
+        </header>
+
+        <main class="milestone-content">
+            <div class="content-wrapper">
+                <div class="milestone-image" id="milestoneImage">
+                    <div class="image-placeholder">
+                        <span class="placeholder-icon">📸</span>
+                        <p>Special Moment</p>
+                    </div>
+                </div>
+                
+                <div class="milestone-description">
+                    <div class="description-text" id="milestoneDescription">
+                        <!-- Content will be dynamically loaded -->
+                    </div>
+                    
+                    <div class="milestone-highlights">
+                        <h3>💖 Special Highlights</h3>
+                        <ul id="milestoneHighlights">
+                            <!-- Highlights will be dynamically loaded -->
+                        </ul>
+                    </div>
+                    
+                    <div class="milestone-quote">
+                        <p id="milestoneQuote">"Every new milestone is a treasure to cherish forever."</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="milestone-footer">
+            <div class="navigation-buttons">
+                <button class="nav-btn prev-btn" id="prevBtn">
+                    <span>← Previous Milestone</span>
+                </button>
+                <button class="nav-btn back-to-archive" onclick="window.location.href='archive.html'">
+                    <span>📚 All Milestones</span>
+                </button>
+                <button class="nav-btn next-btn" id="nextBtn">
+                    <span>Next Milestone →</span>
+                </button>
+            </div>
+        </footer>
+    </div>
+
+    <script src="milestone.js"></script>
+</body>
+</html>
